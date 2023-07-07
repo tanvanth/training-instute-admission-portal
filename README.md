@@ -1,1 +1,1 @@
-# training-instute-admission-portal
+# training-institute-admission-portal
