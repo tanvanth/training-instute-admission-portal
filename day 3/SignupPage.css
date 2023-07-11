@@ -1,0 +1,88 @@
+.login-form {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 89vh;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  
+  /* border: 1px solid hsl(100%, 100%, 100%); */
+  /*border-radius: 10px;*/
+}
+#username,#mobile{
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#register{background-image: url("C:\Users\tanva\Desktop\year 3 web dev project\pex.jpg");
+background-repeat: no-repeat;
+height: 117vh;
+width: 100%;
+border-radius: none;
+}
+
+/* Rest of the CSS code remains the same */
+
+
+.login-fieldset {
+  border: none;
+  padding: 0rem;
+  width: 100%;
+  max-width: 400px;
+  /* border-radius: 7px; */
+ 
+}
+
+.login-fieldset p {
+  font-weight: bold;
+  /* margin-bottom: 15px; */
+  font-size: 2rem;
+  color: #2943d4;
+}
+
+.form-group {
+  margin-bottom: 8px;
+  width: 100%;
+  /* border-width: 1cap; */
+}
+
+
+.form-label {
+  /* display: block; */
+  width: 100%;
+  margin-bottom: 8px;
+  margin: 5cap;
+  color: #02061e;
+  font-size: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid #fbf9f9;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+.login-button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #2943d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1da44a;
+}
