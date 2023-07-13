@@ -1,0 +1,68 @@
+.login-container {
+    /* max-width: 100vw    ; */
+    width: 70vw;
+    height: 100vh;
+
+    margin: 50 auto;
+    padding: 170px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-image: url("C:\Users\tanva\Desktop\year 3 web dev project\grad.jpg");
+    background-size: cover  ;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: larger;
+  }
+  h1 {
+    
+    text-align: center;
+    text-transform: uppercase;
+    color: #26d4c2;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    /* display: block; */
+    width: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2943d4;
+    color: white;
+    /* border: none; */
+    /* border-radius: 4px; */
+    /* cursor: pointer; */
+  }
+  .signup-button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #286643;
+    color: white;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+  }
+  #loginbtn{
+    width: 250px;
+    padding: 8px;
+   
+    
+  }
